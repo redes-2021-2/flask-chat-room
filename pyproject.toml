@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "flask-chat-room"
+version = "0.1.0"
+description = ""
+authors = ["alexhdz1 <alex.hdz.c@ciencias.unam.mx>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "7.0"
+dnspython = "1.16.0"
+eventlet = "0.25.1"
+Flask = "1.1.1"
+Flask-SocketIO = "4.2.1"
+Flask-WTF = "0.14.3"
+greenlet = "0.4.15"
+itsdangerous = "1.1.0"
+Jinja2 = "2.11.1"
+MarkupSafe = "1.1.1"
+monotonic = "1.5"
+python-engineio = "3.11.2"
+python-socketio = "4.4.0"
+six = "1.14.0"
+Werkzeug = "1.0.0"
+WTForms = "2.2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
